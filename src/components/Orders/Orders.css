@@ -1,0 +1,5 @@
+.review-shop-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 150px 100px;
+}
