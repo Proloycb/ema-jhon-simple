@@ -4,10 +4,22 @@
 }
 .products-container {
     margin: 100px 60px;
+}
+.products {
+    margin-bottom: 30px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
 .cart-container {
     background: rgba(255, 153, 0, 0.3);
+}
+.pagination button{
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid orange;
+}
+.pagination .selected{
+    background-color: orange;
+    color: white;
 }
